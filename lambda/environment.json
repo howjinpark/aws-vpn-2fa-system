@@ -1,0 +1,6 @@
+{
+  "Variables": {
+    "BACKEND_API_URL": "http://YOUR-PRIVATE-IP:8000/api/auth",
+    "WEB_REDIRECT_URL": "http://your-alb-domain.elb.amazonaws.com"
+  }
+}
