@@ -16,7 +16,7 @@ AWS Client VPN과 Microsoft Active Directory를 연동한 2단계 인증(2FA) �
 - **2단계 인증**: Active Directory + TOTP (Google Authenticator 호환)
 - **시간 기반 접근 제어**: 그룹별 요일/시간대 제한 설정
 - **실시간 모니터링**: VPN 연결 로그 및 IP 추적 (개인정보 마스킹)
-- **자동 보안 차단**: fail2ban + iptables 기반 악성 트래픽 차단
+- **보안 코딩**: CORS 설정, 입력 검증, 에러 처리
 
 ### 🎨 사용자 인터페이스
 - **모던 웹 UI**: 그라디언트 디자인의 반응형 인터페이스
