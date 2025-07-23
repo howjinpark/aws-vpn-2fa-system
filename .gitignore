@@ -1,0 +1,92 @@
+# AWS VPN 2FA 프로젝트 .gitignore
+
+# 환경변수 파일 (민감정보 포함)
+.env
+.env.local
+.env.production
+.env.development
+
+# 데이터베이스 파일
+db.sqlite3
+*.db
+*.sqlite
+
+# Django
+*.pyc
+__pycache__/
+*.log
+media/
+staticfiles_build/
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+
+# AWS 자격증명
+.aws/
+*.pem
+*.key
+*.p12
+credentials
+config
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+logs/
+debug.log
+error.log
+
+# 백업 파일
+*.bak
+*.backup
+*.orig
+
+# 민감한 데이터
+secrets/
+private/
+*.secret
+keys/
+
+# Node.js (프론트엔드)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# React 빌드
+build/
+dist/
+.cache/
+
+# 임시 파일
+*.tmp
+*.temp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*

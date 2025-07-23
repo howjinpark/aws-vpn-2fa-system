@@ -50,9 +50,10 @@ pip install -r requirements.txt
 cp .env.example .env
 # .env 파일을 편집하여 실제 값으로 변경
 
-# 데이터베이스 마이그레이션
+# 데이터베이스 설정 (SQLite 자동 생성)
 python manage.py migrate
 python manage.py createsuperuser
+# 상세한 데이터베이스 설정 가이드: DATABASE_SETUP.md 참고
 
 # Django 서버 실행
 python manage.py runserver 0.0.0.0:8000
