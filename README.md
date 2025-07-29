@@ -1,7 +1,8 @@
 # AWS Client VPN 2FA Authentication System
 
 AWS Client VPN과 Microsoft Active Directory를 연동한 2단계 인증(2FA) 시스템입니다.
-<img width="3839" height="1776" alt="image" src="https://github.com/user-attachments/assets/d655a64e-dec0-434c-8547-58513acbc9ef" />
+<img width="3839" height="1519" alt="image" src="https://github.com/user-attachments/assets/6670d680-2866-4378-b8c2-f14051279ab0" />
+
 
 
 ## 🏗️ 시스템 아키텍처
